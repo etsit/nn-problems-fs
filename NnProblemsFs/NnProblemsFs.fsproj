@@ -48,8 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <Compile Include="_1_Last\Last.fs" />
+    <Compile Include="_2_LastButOne\LastButOne.fs" />
+    <Compile Include="_3_ElementAt\ElementAt.fs" />
+    <Compile Include="_4_ElementCount\ElementCount.fs" />
+    <Compile Include="_5_Reverse\Reverse.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

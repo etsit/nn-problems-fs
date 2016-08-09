@@ -1,7 +1,10 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
+﻿open System
+open Last
+open LastButOne
+open Reverse
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%A" argv
+    printfn "%A" <| reverse_Rec2 []
+    Console.ReadLine() |> ignore
     0 // return an integer exit code
