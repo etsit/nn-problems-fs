@@ -1,5 +1,4 @@
-﻿module LastButOne
-open Last
+﻿module P2LastButOne
 
 let rec lastButOne (lst : 'a list) =
     match lst with
