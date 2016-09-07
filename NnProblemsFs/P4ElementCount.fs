@@ -8,7 +8,7 @@ let rec elementCountHeadR (lst : 'a list) =
 let elementCountTailR (lst : 'a list) =
     let rec tailR lst' count =
         match lst' with
-        | x::xs -> tailR xs count + 1 
+        | x::xs -> tailR xs (count + 1)
         | []    -> count
     tailR lst 0
 
