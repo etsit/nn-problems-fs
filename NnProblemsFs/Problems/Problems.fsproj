@@ -52,6 +52,7 @@
     <Compile Include="P3ElementAt.fs" />
     <Compile Include="P4ElementCount.fs" />
     <Compile Include="P5Reverse.fs" />
+    <Compile Include="P6Palindrome.fs" />
     <Compile Include="Problems.fs" />
     <None Include="App.config" />
   </ItemGroup>

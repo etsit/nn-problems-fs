@@ -1,8 +1,13 @@
 module Problems
 
-open P1Last
+open P6Palindrome
 
 [<EntryPoint>]
 let main argv =
-    printfn "%A" <| last [1;2]
-    0 // return an integer exit code
+    List.ofArray argv
+    |> fun xs ->
+      printfn "List: %A" xs
+      xs
+    |> isPalindrome
+    |> printfn "Is palindrome? %A"
+    0
