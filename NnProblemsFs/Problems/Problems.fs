@@ -1,6 +1,7 @@
 module Problems
 
 open P6Palindrome
+open System
 
 [<EntryPoint>]
 let main argv =
@@ -10,4 +11,5 @@ let main argv =
       xs
     |> isPalindrome
     |> printfn "Is palindrome? %A"
+    Console.ReadLine() |> ignore
     0
